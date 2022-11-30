@@ -1,0 +1,55 @@
+*{
+    margin: 2px;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+header{
+    flex-grow: 2;
+    display: flex;
+}
+.logo{
+    background-color:blueviolet;
+    flex-grow: 2;
+}
+.heading{
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+}
+.headingname{
+    background-color:yellow;
+    flex-grow: 2;
+}
+.menu{
+    background-color: darkseagreen;
+    flex-grow: 1;
+}
+section{
+    
+    flex-grow: 8;
+    display: flex;
+}
+.aside{
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+.middle{
+    background-color: chartreuse;
+    flex-grow: 1;
+}
+.left{
+    background-color: coral;
+    flex-grow: 1;
+}
+footer{
+    background-color:darkgrey;
+    flex-grow: 1;
+}
